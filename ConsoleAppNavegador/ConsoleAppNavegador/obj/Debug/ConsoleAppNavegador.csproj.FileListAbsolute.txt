@@ -1,0 +1,6 @@
+C:\Users\20211011110008\source\repos\ConsoleAppNavegador\ConsoleAppNavegador\bin\Debug\ConsoleAppNavegador.exe.config
+C:\Users\20211011110008\source\repos\ConsoleAppNavegador\ConsoleAppNavegador\bin\Debug\ConsoleAppNavegador.exe
+C:\Users\20211011110008\source\repos\ConsoleAppNavegador\ConsoleAppNavegador\bin\Debug\ConsoleAppNavegador.pdb
+C:\Users\20211011110008\source\repos\ConsoleAppNavegador\ConsoleAppNavegador\obj\Debug\ConsoleAppNavegador.csprojAssemblyReference.cache
+C:\Users\20211011110008\source\repos\ConsoleAppNavegador\ConsoleAppNavegador\obj\Debug\ConsoleAppNavegador.exe
+C:\Users\20211011110008\source\repos\ConsoleAppNavegador\ConsoleAppNavegador\obj\Debug\ConsoleAppNavegador.pdb
