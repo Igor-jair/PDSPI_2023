@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+    var rand = new Random();
+    int qtd = rand.Next(20);
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> Alo Mundo </div>
+    <div>
+        @for(int i = 1; i<qtd; i++){
+            @i <br/>                       
+        }
+    </div>
+</body>
+</html>
