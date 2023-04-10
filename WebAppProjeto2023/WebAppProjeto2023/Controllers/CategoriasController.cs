@@ -17,10 +17,17 @@ namespace WebAppProjeto2023.Controllers
             new Categoria() { CategoriaId = 4, Nome = "Mouses"},
             new Categoria() { CategoriaId = 5, Nome = "Desktops"}
         };
+
         // GET: Categorias
         public ActionResult Index()
         {
             return View(categorias);
+        }
+
+        // GET: Categorias
+        public ActionResult Create()
+        {
+            return View();
         }
     }
 }
