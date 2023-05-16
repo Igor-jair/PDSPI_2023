@@ -1,0 +1,38 @@
+﻿@model WebAppProjeto2023.Models.Home
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Página inicial";
+}
+
+<div>
+    <table class="table table-striped">
+        <tr>
+            <th>Fabricantes</th>
+        </tr>
+        @foreach (var item in Model.fabricantes)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+
+<div>
+    <table class="table table-striped">
+        <tr>
+            <th>Categorias</th>
+        </tr>
+        @foreach (var item in Model.categorias)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
