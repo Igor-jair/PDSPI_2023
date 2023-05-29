@@ -75,7 +75,6 @@ C:\Users\20211011110008\source\repos\WebAppProjeto2023\WebAppProjeto2023\obj\Deb
 C:\Users\20211011110008\source\repos\WebAppProjeto2023\WebAppProjeto2023\obj\Debug\WebAppProjeto2023.csproj.CopyComplete
 C:\Users\20211011110008\source\repos\WebAppProjeto2023\WebAppProjeto2023\obj\Debug\WebAppProjeto2023.dll
 C:\Users\20211011110008\source\repos\WebAppProjeto2023\WebAppProjeto2023\obj\Debug\WebAppProjeto2023.pdb
-C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\bin\WebAppProjeto2023.dll.config
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\bin\WebAppProjeto2023.dll
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\bin\WebAppProjeto2023.pdb
@@ -86,6 +85,7 @@ C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\bin\roslyn\csi.exe.config
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\bin\roslyn\csi.rsp
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
@@ -152,7 +152,7 @@ C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\bin\pt-br\System.Web.Webpages.Razor.resources.dll
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\bin\pt-br\System.Web.Helpers.resources.dll
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\obj\Debug\WebAppProjeto2023.csproj.CoreCompileInputs.cache
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\obj\Debug\WebAppProjeto2023.csproj.CopyComplete
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\obj\Debug\WebAppProjeto2023.dll
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\obj\Debug\WebAppProjeto2023.pdb
-C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\obj\Debug\WebAppProjeto2023.csprojAssemblyReference.cache
