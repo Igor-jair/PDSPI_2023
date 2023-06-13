@@ -30,9 +30,26 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Nome)
+                    @Html.ActionLink(item.Nome, "Index", "", new(CategoriaId = item), null)
                 </td>
             </tr>
         }
     </table>
 </div>
+
+@if (Model.produtos != null && Model.filtro == "Fabricante")
+{
+    <div>
+        <p>Relação de Produtos para Fabricantes</p>
+        @Html.Partial("~/Views/Produtos/_PorFabricante.cshtml", Model.produtos.ToList())
+    </div>
+}
+
+@if (Model.produtos != null && Model.filtro == "Categoria")
+{
+    <div>
+        <p>Relação de Produtos para Fabricantes</p>
+        @Html.Partial("~/Views/Produtos/_PorCategoria.cshtml", Model.produtos.ToList())
+    </div>
+}
+
