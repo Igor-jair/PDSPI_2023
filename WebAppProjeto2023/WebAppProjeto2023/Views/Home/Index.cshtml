@@ -14,7 +14,7 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Nome)
+                    @Html.ActionLink(item.Nome, "Index", "Home", new { FabricanteId = item.FabricanteId }, null)
                 </td>
             </tr>
         }
@@ -30,7 +30,7 @@
         {
             <tr>
                 <td>
-                    @Html.ActionLink(item.Nome, "Index", "", new(CategoriaId = item), null)
+                    @Html.ActionLink(item.Nome, "Index", "Home", new { CategoriaId = item.CategoriaId }, null)
                 </td>
             </tr>
         }
