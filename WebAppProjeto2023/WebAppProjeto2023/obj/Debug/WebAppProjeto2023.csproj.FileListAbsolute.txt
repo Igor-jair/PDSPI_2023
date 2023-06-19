@@ -155,4 +155,5 @@ C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\obj\Debug\WebAppProjeto2023.csproj.CopyComplete
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\obj\Debug\WebAppProjeto2023.dll
 C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\obj\Debug\WebAppProjeto2023.pdb
-C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\obj\Debug\WebAppProjeto2023.csprojAssemblyReference.cache
+C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\obj\Debug\WebAppProjeto2023.csproj.AssemblyReference.cache
+C:\Users\20211011110008\Source\Repos\PDSPI_2023\WebAppProjeto2023\WebAppProjeto2023\obj\Debug\WebAppProjeto2023.csproj.CoreCompileInputs.cache
