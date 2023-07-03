@@ -6,6 +6,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using WebAppProjeto2023.Models;
+using Modelo.Tabelas;
 
 namespace WebAppProjeto2023.Controllers
 {

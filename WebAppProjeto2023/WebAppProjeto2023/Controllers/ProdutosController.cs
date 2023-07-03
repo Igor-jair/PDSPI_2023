@@ -7,6 +7,7 @@ using WebAppProjeto2023.Models;
 using System.Data.Entity;
 using System.Net;
 using System.IO;
+using Modelo.Cadastros;
 
 namespace WebAppProjeto2023.Controllers
 {
