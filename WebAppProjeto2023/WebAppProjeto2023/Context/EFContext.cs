@@ -1,10 +1,10 @@
-﻿using Modelo.Cadastros;
-using Modelo.Tabelas;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
+using Modelo.Cadastros;
+using Modelo.Tabelas;
 
 namespace WebAppProjeto2023.Models
 {
@@ -18,5 +18,11 @@ namespace WebAppProjeto2023.Models
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Fabricante> Fabricantes { get; set; }
         public DbSet<Produto> Produtos { get; set; }
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+        }
+
     }
 }

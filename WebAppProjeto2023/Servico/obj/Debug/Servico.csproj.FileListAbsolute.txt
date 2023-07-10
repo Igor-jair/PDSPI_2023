@@ -1,0 +1,2 @@
+C:\Users\20211011110008\source\repos\PDSPI_2023\WebAppProjeto2023\Servico\obj\Debug\Servico.csproj.AssemblyReference.cache
+C:\Users\20211011110008\source\repos\PDSPI_2023\WebAppProjeto2023\Servico\obj\Debug\Servico.csproj.CoreCompileInputs.cache
