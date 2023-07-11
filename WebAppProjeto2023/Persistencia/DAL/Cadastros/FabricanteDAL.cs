@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Persistencia.DAL.Cadastros
 {
-    class FabricanteDAL
+    public class FabricanteDAL
     {
         private EFContext context = new EFContext();
         public IQueryable<Fabricante> ObterFabricantesClassificadosPorNome()

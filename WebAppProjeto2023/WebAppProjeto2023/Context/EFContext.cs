@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Modelo.Cadastros;
+using Modelo.Tabelas;
+using System;
 using System.Collections.Generic;
-using System.Data.Entity;
+//using System.Data.Entity;
 using System.Linq;
 using System.Web;
-using Modelo.Cadastros;
-using Modelo.Tabelas;
+
 
 namespace WebAppProjeto2023.Models
 {
@@ -12,8 +13,7 @@ namespace WebAppProjeto2023.Models
     {
         public EFContext() : base("Asp_Net_MVC_CS")
         {
-            Database.SetInitializer<EFContext>(
-            new DropCreateDatabaseIfModelChanges<EFContext>());
+            Database.SetInitializer<EFContext>(new DropCreateDatabaseIfModelChanges<EFContext>());
         }
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Fabricante> Fabricantes { get; set; }

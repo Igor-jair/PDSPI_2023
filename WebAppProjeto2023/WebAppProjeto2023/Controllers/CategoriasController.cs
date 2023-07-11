@@ -18,7 +18,7 @@ namespace WebAppProjeto2023.Controllers
         public ActionResult Index()
         {
             return View(
-                context.Categorias.OrderBy(context => context.Nome)
+                //context.Categorias.OrderBy(context => context.Nome)
             );
         }
 
@@ -105,8 +105,8 @@ namespace WebAppProjeto2023.Controllers
         public ActionResult Delete(long id)
         {
             Categoria categoria = context.Categorias.Find(id);
-            context.Categorias.Remove(categoria);
-            context.SaveChanges();
+            //context.Categorias.Remove(categoria);
+            //context.SaveChanges();
             TempData["Message"] = "Categoria \"" + categoria.Nome + "\" foi removida";
             return RedirectToAction("Index");
         }

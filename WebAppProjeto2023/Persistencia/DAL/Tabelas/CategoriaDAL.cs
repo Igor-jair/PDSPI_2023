@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Persistencia.DAL.Tabelas
 {
-    class CategoriaDAL
+    public class CategoriaDAL
     {
         private EFContext context = new EFContext();
         public IQueryable<Categoria> ObterCategoriasClassificadasPorNome()

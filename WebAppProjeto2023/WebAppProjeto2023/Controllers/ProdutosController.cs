@@ -15,7 +15,7 @@ namespace WebAppProjeto2023.Controllers
 {
     public class ProdutosController : Controller
     {
-        //private EFContext context = new EFContext();
+        private EFContext context = new EFContext();
         private ProdutoServico produtoServico = new ProdutoServico();
         private CategoriaServico categoriaServico = new CategoriaServico();
         private FabricanteServico fabricanteServico = new FabricanteServico();
