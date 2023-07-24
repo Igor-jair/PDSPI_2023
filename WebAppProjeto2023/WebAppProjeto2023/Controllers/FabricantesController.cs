@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using WebAppProjeto2023.Models;
 using Modelo.Cadastros;
+using System.Data.Entity;
 
 namespace WebAppProjeto2023.Controllers
 {
@@ -16,9 +17,7 @@ namespace WebAppProjeto2023.Controllers
         // GET: Fabricantes
         public ActionResult Index()
         {
-            return View(
-                context.Fabricantes.OrderBy(c => c.Nome)
-                );
+            return View(context.Fabricantes.OrderBy(c => c.Nome));
         }
 
         // GET: Create
