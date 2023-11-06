@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Modelo.Carrinho.ItemCarrinho>
+@{ Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("AddProduto", "Carrinhos",
+
+new { area = "Carrinho" }, FormMethod.Post, new { id = "formCarrinho" }))
+
+{
+    @Html.AntiForgeryToken()
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            Seleção de itens para o carrinho de compra
+        </div>
+        <div class="panel-body">
+            <div class="form-horizontal">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        Selecione o produto e confirme a inserção
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-group">
+                        <div class="col-md-8">
+                            @Html.Label("Produto")
+                        </div>
+                        <div class="col-md-2">
+                            @Html.Label("Quantidade")
+                        </div>
+                        <div class="form-group">
+
+                            <div class="col-md-8">
+                                @Html.DropDownList("ItemCarrinhoId", null,
+                                htmlAttributes: new { @class = "form-control" })
+
+                            </div>
+                            <div class="col-md-2">
+
+                                @Html.TextBox("Quantidade", "",
+                                htmlAttributes: new { @class = "form-control" })
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group" style="text-align:center;">
+                    <input id="SubmitForm" type="submit"
+                           value="Adicionar produto ao carrinho"
+                           class="btn btn-success" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-primary">
+        <div class="panel-body">
+            <div class="col-md-12">
+                <div id="itenscarrinho">
+
+                    @Html.Partial("~/Areas/Carrinho/Views/Carrinhos/_ItensCarrinho.cshtml", Model)
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
