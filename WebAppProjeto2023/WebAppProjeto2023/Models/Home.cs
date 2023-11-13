@@ -9,10 +9,9 @@ namespace WebAppProjeto2023.Models
 {
     public class Home
     {
-        public IQueryable<Fabricante> fabricantes;
-        public IQueryable<Categoria> categorias;
-        public IQueryable<Produto> produtos;
+        public IOrderedQueryable<Fabricante> fabricantes;
+        public IOrderedQueryable<Categoria> categorias;
+        public IOrderedQueryable<Produto> produtos;
         public string filtro;
-
     }
 }

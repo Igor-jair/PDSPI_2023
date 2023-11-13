@@ -14,6 +14,7 @@ namespace WebAppProjeto2023.Controllers
         public ActionResult Index(long? FabricanteId, long? CategoriaId)
         {
             Home h = new Home();
+
             h.fabricantes = context.Fabricantes.OrderBy(c => c.Nome);
             h.categorias = context.Categorias.OrderBy(c => c.Nome);
             if ((FabricanteId != null))
@@ -22,19 +23,18 @@ namespace WebAppProjeto2023.Controllers
                 h.produtos = context.Produtos.Where(p => p.FabricanteId == FabricanteId).OrderBy(c => c.Nome);
             }
             if ((CategoriaId != null))
-            { 
+            {
                 h.filtro = "Categoria";
                 h.produtos = context.Produtos.Where(p => p.CategoriaId == CategoriaId).OrderBy(c => c.Nome);
             }
             return View(h);
         }
-        public ActionResult IndexProdutosFabricante(long? FabId)
+        public ActionResult IndexProdutosFabricante(long FabId)
         {
             Home h = new Home();
             h.fabricantes = context.Fabricantes.OrderBy(c => c.Nome);
             h.categorias = context.Categorias.OrderBy(c => c.Nome);
             h.produtos = context.Produtos.Where(p => p.FabricanteId == FabId).OrderBy(c => c.Nome);
-
             return View(h);
         }
     }

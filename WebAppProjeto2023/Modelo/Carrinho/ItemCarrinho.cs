@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Modelo.Carrinho
 {
-    class ItemCarrinho
+    public class ItemCarrinho
     {
         public long? ItemCarrinhoId { get; set; }
         public Produto Produto { get; set; }
